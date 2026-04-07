@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Category {
+public abstract class Category {
     private int id;
     private String title;
     private String description;
 
-    private int nextId = 1;
-    private List<Category> categorys = new ArrayList<>()
+    private static int nextId = 1;
+    private List<Category> categorys = new ArrayList<>();
 
     public Category() {}
 
@@ -20,19 +20,20 @@ public class Category {
     }
 
 
-    public abstract void SnowInfo();
+    public abstract void ShowInfo();
     public abstract String getType();
 
     public int getId() {
-        return this.id;
+
+        return id;
     }
 
     public String getdescription() {
-        return this.description;
+        return description;
     }
 
     public String getTitle() {
-        return this.title;
+        return title;
     }
 
 
@@ -53,8 +54,14 @@ public class Category {
         categorys.add(category);
     }
 
-    public void snowCategory(){
-        if (categorys.isEmpty());
+    public void showCategory(){
+        ShowInfo();
+        if (categorys.isEmpty()) {
+            System.out.println("Подкатегории");
+            for (Category cat : categorys){
+                cat.showCategory();
+            }
+        }
     }
 
 
