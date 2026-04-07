@@ -6,8 +6,8 @@ public abstract class Category {
     private String title;
     private String description;
 
-    private int nextId = 1;
-    private List<Category> categorys = new ArrayList<>()
+    private static int nextId = 1;
+    private List<Category> categorys = new ArrayList<>();
 
     public Category() {}
 
@@ -24,6 +24,7 @@ public abstract class Category {
     public abstract String getType();
 
     public int getId() {
+
         return id;
     }
 
