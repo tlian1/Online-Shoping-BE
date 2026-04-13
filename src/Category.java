@@ -20,7 +20,7 @@ public abstract class Category {
     }
 
 
-    public abstract void SnowInfo();
+    public abstract void ShowInfo();
     public abstract String getType();
 
     public int getId() {
@@ -54,8 +54,14 @@ public abstract class Category {
         categorys.add(category);
     }
 
-    public void snowCategory(){
-        if (categorys.isEmpty());
+    public void showCategory(){
+        ShowInfo();
+        if (categorys.isEmpty()) {
+            System.out.println("Подкатегории");
+            for (Category cat : categorys){
+                cat.showCategory();
+            }
+        }
     }
 
 

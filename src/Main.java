@@ -8,4 +8,5 @@ public class Main {
         System.out.println(catalog2.getId() + " " + catalog2.getTitle() + " " + catalog2.getPrice() + " ");
 
     }
+
 }
