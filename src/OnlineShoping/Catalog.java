@@ -1,18 +1,22 @@
-import java.lang.reflect.Array;
+package OnlineShoping;
+
 import java.util.ArrayList;
 
 public class Catalog {
-    /*
+    /*TODO
     //todo первое поле id
     //todo Второе поле title
     //todo Третье поле price double
     //todo Полная инкомпсюляция
     //todo Создать дда объекта в main и запускаем. Запускаем два объекта
     //todo этап 2 класс продукт должено быть поле description продукт класс должен быть абстрактным
-    //todo клас категория Category id title description
-    //todo id автогенерация новые наследники electronic and GardenItem еще класс MobileDivace создаем новый объект из но
+    //todo клас категория OnlineShoping.Category id title description
+    //todo id автогенерация новые наследники electronic and OnlineShoping.GardenItem еще класс MobileDivace создаем новый объект из но
     //todo вых классов в категории толжен быть ArrayList сохраняет в себе список категорий два методап addCategory showCategory
     //todo добавить счетчик сколько категорий есть второй сколько subCategory
+    //todo добавить несколько продуктов в класс продукт
+    //todo в showInfo нужно что бы он выводил весь список товаров
+    //todo создать два новых интерфейса payball помогает   financity
     */
 
 
