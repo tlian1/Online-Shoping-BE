@@ -50,16 +50,8 @@ public class Comparators {
      * Сортировка по Сезону использования
      * Работает ТОЛЬКО для садовых товаров (GardenItem).
      */
-    public static Comparator<Product> bySeason() {
-        return (p1, p2) -> {
-            if (p1 instanceof GardenItem && p2 instanceof GardenItem) {
-                GardenItem g1 = (GardenItem) p1;
-                GardenItem g2 = (GardenItem) p2;
-                return g1.getSeason().compareTo(g2.getSeason());
-            }
-            return 0;
-        };
-    }
+
+
 
     /**
      * Сортировка по Бренду
@@ -74,5 +66,9 @@ public class Comparators {
             }
             return 0;
         };
+    }
+
+    public static Comparator<Product> bySeason() {
+        return null;
     }
 }

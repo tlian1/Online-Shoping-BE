@@ -1,6 +1,6 @@
 package OnlineShoping;
 
-public class MobileDevice extends Electronic {
+public class MobileDevice extends Elecrtonic {
     private String brand;
     private int batteryCapacity;
 

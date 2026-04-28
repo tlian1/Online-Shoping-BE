@@ -1,11 +1,8 @@
 package OnlineShoping;
 
-
-public class Electronic extends Category {
-
-    public Electronic(String title, String description) {
-        this.title = title;
-        this.description = description;
+public class GardenCategory extends Category {
+    public GardenCategory(String title, String description) {
+        super(title, description);
     }
 
     @Override
@@ -26,15 +23,11 @@ public class Electronic extends Category {
     @Override
     public void showInfo() {
         System.out.println("\n" + "=".repeat(50));
-        System.out.println("КАТЕГОРИЯ: ЭЛЕКТРОНИКА");
+        System.out.println("🌱 КАТЕГОРИЯ: САДОВЫЕ ТОВАРЫ");
         System.out.println("=".repeat(50));
         System.out.println("ID: " + getId());
         System.out.println("Название: " + getTitle());
-        System.out.println("Описание: " + getdescription());
-    }
-
-    private String getdescription() {
-        return "";
+        System.out.println("Описание: " + getDescription());
     }
 
     @Override

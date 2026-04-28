@@ -1,11 +1,9 @@
 package OnlineShoping;
 
+public class Elecrtonic extends Category {
 
-public class Electronic extends Category {
-
-    public Electronic(String title, String description) {
-        this.title = title;
-        this.description = description;
+    public Elecrtonic(String title, String description) {
+        super(title, description);
     }
 
     @Override
@@ -30,11 +28,7 @@ public class Electronic extends Category {
         System.out.println("=".repeat(50));
         System.out.println("ID: " + getId());
         System.out.println("Название: " + getTitle());
-        System.out.println("Описание: " + getdescription());
-    }
-
-    private String getdescription() {
-        return "";
+        System.out.println("Описание: " + getDescription());
     }
 
     @Override

@@ -1,38 +1,35 @@
 package OnlineShoping;
 
-public class GardenItem extends Category {
 
+public class GardenItem extends Product {
     private String season;
+    private String material;
 
-    public GardenItem(String title, String description){
-        this.season = "Весна-Лето";
+    public GardenItem(String title, double price, String description, String season, String material) {
+        super(title, price, description, "GardenItem");
+        this.season = season;
+        this.material = material;
     }
 
-    public GardenItem(String title, String descripnion, String season){
-    }
     @Override
     public void ShowInfo() {
-        System.out.println("САДОВЫЙ ТОВАР");
-        System.out.println("ID" + getId());
-        System.out.println("Название" + getTitle());
-        System.out.println("Описание" + getdescription());
-        System.out.println("Сезон" + season);
-        System.out.println("Тип" + getType());
+
     }
 
     @Override
-    public String getType() {
-        return "";
+    public void showInfo() {
+        System.out.println(title + " | $" + price + " | Сезон: " + season + " | Материал: " + material);
     }
-
-    @Override
-    public void SnowInfo() {
-
-    }
-
 
     public String getSeason() {
         return season;
     }
+    public String getMaterial() {
+        return material;
+    }
 
+    @Override
+    public String toString() {
+        return "GardenItem{season='" + season + "', material='" + material + "', " + super.toString() + "}";
+    }
 }
