@@ -3,7 +3,8 @@ package OnlineShoping;
 
 public class Main {
     public static void main(String[] args) {
-        new Menu().start();
+        Menu menu = new Menu();
+        menu.start();
 
 
     }

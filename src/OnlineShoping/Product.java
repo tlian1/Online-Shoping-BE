@@ -1,93 +1,51 @@
 package OnlineShoping;
 
-public abstract class Product implements Payable, Comparable<Product> {
+public abstract class Product implements Comparable<Product>, Payable {
     protected int id;
     protected String title;
     protected double price;
     protected String description;
     protected boolean paid;
-    protected String categoryType;
-    protected static int nextId = 1;
+    private static int nextId = 1;
 
-    public Product(String title, double price, String description, String categoryType) {
+    public Product(String title, double price, String description) {
         this.id = nextId++;
         this.title = title;
         this.price = price;
         this.description = description;
-        this.categoryType = categoryType;
         this.paid = false;
     }
 
-
+    // Сортировка по умолчанию (Comparable) — по цене
     @Override
     public int compareTo(Product other) {
         return Double.compare(this.price, other.price);
     }
 
-    public String getCategoryType() {
-        return this.categoryType;
-    }
-
     @Override
-    public double getFinalPrice() {
-        return this.price;
-    }
+    public double getFinalPrice() { return price; }
 
     @Override
     public void pay(double amount) {
-        if (amount >= this.price) {
-            this.paid = true;
-            System.out.println("Товар '" + title + "' оплачен. Сумма: $" + amount);
+        if (amount >= price) {
+            paid = true;
+            System.out.println("Товар оплачен: " + title);
         } else {
-            System.out.println("Недостаточная сумма. Нужно: $" + this.price);
+            System.out.println("Недостаточно средств.");
         }
     }
 
     @Override
-    public boolean isPaid() {
-        return this.paid;
-    }
+    public boolean isPaid() { return paid; }
 
     public int getId() { return id; }
     public String getTitle() { return title; }
     public double getPrice() { return price; }
     public String getDescription() { return description; }
 
-    public void setTitle(String title) { this.title = title; }
-    public void setPrice(double price) { this.price = price; }
-    public void setDescription(String description) { this.description = description; }
-
-    public abstract void ShowInfo();
-
     public abstract void showInfo();
-
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + id;
-        result = prime * result + ((title == null) ? 0 : title.hashCode());
-        long temp = Double.doubleToLongBits(price);
-        result = prime * result + (int) (temp ^ (temp >>> 32));
-        return result;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null) return false;
-        if (getClass() != obj.getClass()) return false;
-        Product other = (Product) obj;
-        if (id != other.id) return false;
-        if (title == null) {
-            if (other.title != null) return false;
-        } else if (!title.equals(other.title)) return false;
-        if (Double.doubleToLongBits(price) != Double.doubleToLongBits(other.price)) return false;
-        return true;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{id=" + id + ", title='" + title + "', price=" + price + ", category='" + categoryType + "'}";
-    }
 }
+
+
+
+
