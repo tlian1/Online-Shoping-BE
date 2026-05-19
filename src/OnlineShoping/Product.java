@@ -6,7 +6,7 @@ public abstract class Product implements Comparable<Product>, Payable {
     protected double price;
     protected String description;
     protected boolean paid;
-    private static int nextId = 1;
+    private static int nextId = 1; // Счетчик для автогенерации ID
 
     public Product(String title, double price, String description) {
         this.id = nextId++;
@@ -29,9 +29,9 @@ public abstract class Product implements Comparable<Product>, Payable {
     public void pay(double amount) {
         if (amount >= price) {
             paid = true;
-            System.out.println("Товар оплачен: " + title);
+            System.out.println(" Товар оплачен: " + title);
         } else {
-            System.out.println("Недостаточно средств.");
+            System.out.println(" Недостаточно средств для оплаты.");
         }
     }
 
@@ -43,9 +43,8 @@ public abstract class Product implements Comparable<Product>, Payable {
     public double getPrice() { return price; }
     public String getDescription() { return description; }
 
-    public abstract void showInfo();
+    public abstract void showInfo(); // Абстрактный метод для вывода информации
 }
-
 
 
 

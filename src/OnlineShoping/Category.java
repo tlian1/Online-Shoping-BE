@@ -18,6 +18,7 @@ public abstract class Category implements Comparable<Category> {
         this.products = new ArrayList<>();
     }
 
+    // Сортировка категорий по названию
     @Override
     public int compareTo(Category other) {
         return this.title.compareTo(other.title);
@@ -34,9 +35,10 @@ public abstract class Category implements Comparable<Category> {
 
     public abstract void showInfo();
 
+    // Рекурсивный вывод категории и всех её подкатегорий
     public void showCategory() {
         showInfo();
-        System.out.println("  📦 Товары: " + products.size());
+        System.out.println("   Товары в категории: " + products.size());
         for (Product p : products) System.out.println("    - " + p.getTitle());
 
         for (Category c : subCategories) c.showCategory();

@@ -1,22 +1,50 @@
 package OnlineShoping;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Order {
-    private String productName;
-    private double amount;
-    private OrderStatus status;
+    private final String clientName;
+    private final List<Product> items;
+    private final double totalAmount;
+    private final PaymentStrategy paymentStrategy;
+    private final List<TransactionRecord> history; // История неизменяемых записей
 
-    public Order(String productName, double amount, OrderStatus status) {
-        this.productName = productName;
-        this.amount = amount;
-        this.status = status;
+    public Order(String clientName, List<Product> items, double totalAmount, PaymentStrategy strategy) {
+        this.clientName = clientName;
+        this.items = new ArrayList<>(items);
+        this.totalAmount = totalAmount;
+        this.paymentStrategy = strategy;
+        this.history = new ArrayList<>();
     }
 
-    public String getProductName() { return productName; }
-    public double getAmount() { return amount; }
-    public OrderStatus getStatus() { return status; }
+    public boolean pay() {
+        System.out.println("\n Начало оплаты заказа для " + clientName);
+        boolean success = paymentStrategy.processPayment(totalAmount);
 
-    @Override
-    public String toString() {
-        return String.format("Заказ: %s | $%.2f | %s", productName, amount, status.getLabel());
+        if (success) {
+            // Создаём immutable запись в истории
+            TransactionRecord record = new TransactionRecord(
+                    "TX-" + System.currentTimeMillis(),
+                    items.get(0).getTitle() + (items.size() > 1 ? " и др." : ""),
+                    totalAmount * 1.1, // Пример исходной цены до скидки
+                    totalAmount * 0.1, // Пример скидки
+                    totalAmount
+            );
+            history.add(record);
+            System.out.println(" Оплата прошла успешно. Транзакция записана.");
+        } else {
+            System.out.println(" Оплата отклонена.");
+        }
+        return success;
     }
+
+    public void printHistory() {
+        System.out.println("\n История транзакций заказа:");
+        history.forEach(System.out::println);
+    }
+
+    public String getClientName() { return clientName; }
+    public List<Product> getItems() { return items; }
+    public double getTotalAmount() { return totalAmount; }
 }

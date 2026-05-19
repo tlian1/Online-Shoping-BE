@@ -12,7 +12,7 @@ public class Phone extends Product {
 
     @Override
     public void showInfo() {
-        System.out.printf("📱 %s (%s) - $%.2f | Batt: %dmAh%n", title, brand, price, battery);
+        System.out.printf("%s (%s) - $%.2f | Batt: %dmAh%n", title, brand, price, battery);
     }
     public String getBrand() { return brand; }
     public int getBattery() { return battery; }
