@@ -1,6 +1,8 @@
 package OnlineShoping;
 
 
+import OnlineShoping.pabota_s_tovarom.Menu;
+
 public class Main {
     public static void main(String[] args) {
         Menu menu = null;

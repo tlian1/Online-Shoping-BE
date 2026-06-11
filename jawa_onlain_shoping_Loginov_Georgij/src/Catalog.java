@@ -9,7 +9,7 @@ public class Catalog {
     //todo Полная инкомпсюляция
     //todo Создать дда объекта в main и запускаем. Запускаем два объекта
     //todo этап 2 класс продукт должено быть поле description продукт класс должен быть абстрактным
-    //todo клас категория Category id title description
+    //todo клас категория pabota_s_tovarom id title description
     //todo id автогенерация новые наследники electronic and GardenItem еще класс MobileDivace создаем новый объект из но
     //todo вых классов в категории толжен быть ArrayList сохраняет в себе список категорий два методап addCategory showCategory
     //todo добавить счетчик сколько категорий есть второй сколько subCategory

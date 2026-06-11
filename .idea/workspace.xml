@@ -4,41 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b3396e-d559-4c22-8669-b2131dadde95" name="Список изменений" comment="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки">
-      <changelist_data name="KirillD" email="arhiva.net1@gmail.com" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/jawa_onlain_shoping_Loginov_Georgij.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/jawa_onlain_shoping_Loginov_Georgij2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Elecrtonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/GardenItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/MobileDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comparable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comparable/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comparable/StudentSortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception_Handlers/MainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/CategoryLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/CreditLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/InvalidTransferAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/PaymentFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineShoping/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
+    <list default="true" id="d5b3396e-d559-4c22-8669-b2131dadde95" name="Список изменений" comment="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;">
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/jawa_onlain_shoping_Loginov_Georgij/src/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/CardPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/CardPaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/CashPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/CashPaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/pabota_s_tovarom/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/CategoryLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/CategoryLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Comparators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/pabota_s_tovarom/Comparators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/CreditLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/CreditLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Electronic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Tovary/Electronic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Finansible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/Finansible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/GardenCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Category/GardenCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/GardenItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Tovary/GardenItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/InvalidTransferAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/InvalidTransferAmountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/pabota_s_tovarom/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/InvoiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/InvoiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Tovary/Laptop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/pabota_s_tovarom/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/MobileDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Tovary/MobileDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/OrderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/Payable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/PaymentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/PaymentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/PaymentFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/PaymentFailedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Tovary/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/ProductComparer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Product/ProductComparer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Product/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Exception/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/StatusChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Zakaz/StatusChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShoping/TransactionRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShoping/Transaktion/TransactionRecord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +61,22 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="tlian1 &lt;georgijloginov6@gmail.com&gt;" />
         <option value="KirillD &lt;arhiva.net1@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tlian1/Online-Shoping-BE.git&quot;,
-    &quot;accountId&quot;: &quot;dd63f473-124a-46be-9b49-c5090948689d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:tlian1/Online-Shoping-BE.git",
+    "accountId": "dd63f473-124a-46be-9b49-c5090948689d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -88,7 +95,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;Приложение.Exception.executor&quot;: &quot;Run&quot;,
     &quot;Приложение.Main.executor&quot;: &quot;Run&quot;,
     &quot;Приложение.MainException.executor&quot;: &quot;Run&quot;
@@ -100,7 +107,7 @@
       <module name="jawa_onlain_shoping_Loginov_Georgij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineShoping.*" />
+          <option name="PATTERN" value="OnlineShoping.Tovary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +129,23 @@
       <option name="presentableId" value="Default" />
       <updated>1780319883028</updated>
     </task>
+    <task id="LOCAL-00001" summary=" Я добавил enum для статуса заказов, ну можно добавить для оплаты, можно для клиента.&#10;2. добавление enum применять в коде, как минимум один функциональный интерфейс, реализуется в конкретном классе, обязательно через Lamda реализовать интерфейс, проверку статуса, добавляем Steam.ip с колекцаями.&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1781164413398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781164413398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1781164475074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781164475074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,13 +201,19 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" Я добавил enum для статуса заказов, ну можно добавить для оплаты, можно для клиента.&#10;2. добавление enum применять в коде, как минимум один функциональный интерфейс, реализуется в конкретном классе, обязательно через Lamda реализовать интерфейс, проверку статуса, добавляем Steam.ip с колекцаями.&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;" />
     <MESSAGE value=" Я добавил enum для статуса заказов, ну можно добавить для оплаты, можно для клиента.&#10;2. добавление enum применять в коде, как минимум один функциональный интерфейс, реализуется в конкретном классе, обязательно через Lamda реализовать интерфейс, проверку статуса, добавляем Steam.ip с колекцаями." />
     <MESSAGE value="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки" />
-    <option name="LAST_COMMIT_MESSAGE" value="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки" />
+    <MESSAGE value=" Я добавил enum для статуса заказов, ну можно добавить для оплаты, можно для клиента.&#10;2. добавление enum применять в коде, как минимум один функциональный интерфейс, реализуется в конкретном классе, обязательно через Lamda реализовать интерфейс, проверку статуса, добавляем Steam.ip с колекцаями.&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;" />
+    <MESSAGE value="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="//этап 11&#10;//1)применить trycashblock,finally,throw,throws и так же свои пользовательские кастомные exeption&#10;//2)надо обрадотать основные части программы с категориями с товарами ,переводы,пользовательское меню и т.д везде обработать исключение&#10;//3)так же типовые ошибки допустим товар не найден  так же разработать место ошибок недостаточно денег нету в категории привышен лимит кредиты неверная сумма перевода и т.д&#10;//4)программа не должна падать exeption закрыть критические ошибки&#10;&#10;Signed-off-by: KirillD &lt;arhiva.net1@gmail.com&gt;" />
   </component>
 </project>
